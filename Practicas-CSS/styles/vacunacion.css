@@ -1,0 +1,160 @@
+@font-face{
+    font-family: 'Habanera-Bold';
+    src: url('../assets/fonts/habanera/Habanera-Bold.ttf') format('truetype');
+    font-style: bold;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Habanera-ExtraBold';
+    src: url('../assets/fonts/habanera/Habanera-ExtraBold.ttf') format('truetype');
+    font-style: bold;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Trueno';
+    src: url('../assets/fonts/trueno/TruenoRound.otf') format('opentype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Trueno-Bold';
+    src: url('../assets/fonts/trueno/TruenoRoundBd.otf') format('opentype');
+    font-style: normal;
+    font-style: normal;
+}
+
+h1, h3{
+    font-family: Habanera-ExtraBold;
+    color: #1C3C71;
+}
+
+h4{
+    font-family: Habanera-Bold;
+    color: #3957D0;
+}
+
+.trueno, h5, h6{
+    font-family: Trueno;
+    color: #758299;
+}
+
+.truenoB{
+    font-family: Trueno-Bold;
+    color: #758299;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div{
+    display: flex;
+    width: 50%;
+}
+
+li button{
+    margin: auto;
+    padding: 2%;
+    width: 125px;
+    flex-grow: 1;
+}
+
+ul{
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 0%;
+    list-style: none;
+    flex-grow: 2;
+    justify-content: right;
+}
+
+li{
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+#hero{
+    display: flex;
+    position: relative;
+}
+
+#hero div p{
+    width: 60%;
+}
+
+#hero img{
+    width: 50%;
+    height: 100%;
+}
+
+#flotante{
+    position: absolute;
+    background-color: rgba(93,217,94,0.2);
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#vacunas{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#vacunas img{
+    max-width: 20%;
+    height: fit-content;
+    filter: grayscale(200%) opacity(0.2);
+}
+
+#porque1 p{
+    width: 50%;
+}
+
+#porque2{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#preparaciones{
+    display: flex;
+}
+
+#contacto{
+    display: flex;
+}
+
+#contacto div div{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+}
+
+#footer{
+    display: flex;
+}
+
+#footer div{
+    width: 50%;
+}
+
+#info{
+    display: flex;
+}
