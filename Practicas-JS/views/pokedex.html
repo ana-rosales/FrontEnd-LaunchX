@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokedeX</title>
+    <link rel="stylesheet" href="../styles/pokedex.css">
+</head>
+<body>
+    <div>
+        <h1>PokedeX</h1>
+        <div id="pokedex">
+            <div id="input">
+                <div>
+                    <img src="../assets/img/pokeball.png" alt="Pokemon" width="150px" id="pokeImg">
+                    <p id="pokeNom"></p>
+                </div>
+                <div>
+                    <input type="text" placeholder="pikachu" name="pokeName" id="pokeName">
+                    <button onclick="fetchPokemon()">Cambiar Pokemon</button>    
+                </div>
+            </div>
+            <div id="output">
+                <div>
+                    <div id="pokeType"></div>
+                    <div id="pokeMove"></div>
+                    <table id="pokeStat">
+                        <tr id="stat"></tr>
+                        <tr id="statName"></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <script src="../js/pokedex.js"></script>
+    </footer>
+</body>
+</html>
