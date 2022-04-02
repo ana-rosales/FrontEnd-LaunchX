@@ -38,7 +38,21 @@ export default createStore({
       cantidad: "11",
       precio: "$195.00"
     }],
-    adornos: [],
+    adornos: [{
+      nombre: "Chispas de Chocolate",
+      cantidad: "7 bolsas",
+      precio: "$180.00"
+    },
+    {
+      nombre: "Crema Glaceada",
+      cantidad: "8 latas",
+      precio: "$200.00"
+    },
+    {
+      nombre: "Fondant",
+      cantidad: "15 bolsas",
+      precio: "$195.00"
+    }],
     mensaje: ""
   },
   getters: {

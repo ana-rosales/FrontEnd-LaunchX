@@ -32,3 +32,9 @@ h1, #pokedex{
     background-color: blue;
     margin: 0.1vh;
 }
+
+#pokeType, #pokeMove{
+    display: flex;
+    flex-flow: row;
+    height: fit-content;
+}

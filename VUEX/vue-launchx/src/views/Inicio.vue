@@ -5,6 +5,7 @@
 
     <PedidoCliente v-if="$store.state.usuario == 0"/>
     
+    <Productos v-if="$store.state.usuario == 0"/>
 
     <div v-if="$store.state.usuario == 1">
       <h1>¡Bienvenido Pastelero!</h1>
@@ -16,12 +17,14 @@
 <script>
 import Datos from "../components/Datos.vue"
 import PedidoCliente from "../components/PedidoCliente.vue";
+import Productos from "../components/Productos.vue";
 
 export default {
   name: 'Inicio',
   components:{
     Datos,
-    PedidoCliente
+    PedidoCliente,
+    Productos
   }
 }
 </script>
